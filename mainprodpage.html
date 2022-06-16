@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainprodpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    
+<!-- Navbar goes here -->
+
+    <nav>
+        <div><a id="logo" href="index.html">IDEAKART</a></div>
+        
+            <!-- search bar -->
+            <div class="searchBar">
+                <div class="search">
+                   <input type="text" class="searchTerm" placeholder="Search">
+                   <button type="submit" class="searchButton">Search</button>
+                </div>
+             </div>
+            <!-- search bar -->
+
+
+        <div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </nav>
+
+<!-- Navbar ends here -->
+
+<!-- Main product page content goes here -->
+
+    <div id="viewCart">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <p>View Cart</p>
+    </div>
+
+    <div class="categorised">
+        <select id="sort">
+            <option value="">Sort by Price</option>
+            <option value="asc">Ascending</option>
+            <option value="des">Descending</option>
+        </select> 
+       
+       <select name="" id="genre">
+            <option value="none">Select by Category</option>
+            <option value="Novel">Novel</option>
+            <option value="History">History</option>
+            <option value="Books for Competitive Exams">Books for Competitive Exams</option>
+            <option value="School Books">School Books</option>
+            <option value="Sports">Sports</option>
+            <option value="Engineering Books">Engineering Books</option>
+            <option value="Documentary">Documentary</option>
+        </select>
+    
+        <select name="" id="language">
+            <option value="none">Sort by Language</option>
+            <option value="English">English</option>
+            <option value="Gujarati">Gujarati</option>
+            <option value="Bengali">Bengali</option>
+        </select> 
+
+        <select name="" id="publishers">
+            <option value="none">Select by Publication</option>
+            <option value="Made Easy Publishers">Made Easy Publishers</option>
+            <option value="New Age International Publishers">New Age International Publishers</option>
+            <option value="Bloomsbury">Bloomsbury</option>
+            <option value="Vibrant Publishers">Vibrant Publishers</option>
+            <option value="Arihant">Arihant</option>
+            <option value="Oswaal Books">Oswaal Books</option>
+            <option value="mtG">mtG</option>
+        </select>
+    </div>
+
+    <div class="productsDisplay">
+        <!-- appended with js -->
+    </div>
+<!-- Main product page contect goes here -->
+
+    <script src="mainprodpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+
+    <!-- Navbar goes here -->
+    <nav>
+        <div><a id="logo" href="index.html">IDEAKART</a></div>
+            <!-- search bar -->
+                <div class="searchBar">
+                    <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Search">
+                    <button type="submit" class="searchButton">Search</button>
+                    </div>
+                </div>
+            <!-- search bar -->
+        <div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html"  id="changeSignUpName">Sign Up</a>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <!-- Sign In starts here -->
+    <div class="signinBox">
+        <p>Log In</p>   
+        <form>  
+            <div class="loginContainer">   
+                <label>Email : </label>   
+                <input type="text" placeholder="" name="username" required id="loginUsername">  
+                <label>Password : </label>   
+                <input type="password" placeholder="" name="password" required id="loginPassword">   
+                <input type="checkbox" checked="checked" id="checkBox"> Remember me 
+                <input type="submit" name="loginbtn" id="loginbtn" value="Log In">
+                <a href="signup.html" id="linkOne">Sign up</a> 
+                <br>
+                <a href="password.html" id="linkTwo">Forgot your password</a>
+            </div>   
+        </form>  
+    </div>
+    <!-- Sign In ends here-->
+
+    <!-- Footer starts here -->
+    <div id="box">
+        <ul>Get To Know Us</ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Refund Policy</a></li>
+        <li><a href="">Earn Money Online</a></li>
+        <li><a href="">Quick Buyer</a></li>
+    </div>
+    <!-- Footer ends here -->
+
+    <script src="signin.js"></script>
+</body>
+</html>

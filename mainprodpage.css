@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for navbar starts here */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(40,116,240);
+    border-radius: 7px;
+}
+nav>div{
+    color: azure;
+    font-size: 25px;
+    margin-left: 19px;
+}
+nav>div+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+nav>div+div>a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+nav>div>a{
+  text-decoration: none;
+  color: azure;
+}
+#logo{
+    color: yellow;
+}
+/* CSS for navbar ends here */
+
+/* Searchbar CSS starts here*/
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .searchTerm {
+    width: 100%;
+    border: 3px solid transparent;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  .searchButton {
+    width: 50px;
+    height: 36px;
+    border: 1px solid silver;
+    text-align: center;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .searchBar{
+    width: 30%;
+  }
+  
+  /* Searchbar CSS starts here*/
+
+  /* Radio button CSS starts here */
+
+
+ /* Radio button CSS starts here */
+
+ /* Main product page CSS */
+@media all and (min-width: 451px) and (max-width: 750px){
+   .productsDisplay{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(20,1fr);
+      gap: 5px;
+      width: 100%;
+      border: 1px solid transparent;
+      /* margin: auto; */
+      margin-top: 30px;
+   }
+}
+@media all and (min-width: 100px) and (max-width: 450px){
+   .productsDisplay{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(40,1fr);
+      /* gap: 15px; */
+      width: 100%;
+      border: 1px solid transparent;
+      /* margin: auto; */
+      margin-top: 30px;
+   }
+}
+ .productsDisplay{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(10,1fr);
+    gap: 15px;
+    width: 80%;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 30px;
+ }
+ #prodImage{
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+ }
+ .productsDisplay>#prodBox{
+    border: 1px solid silver;
+ }
+ #prodDesc{
+    padding-left: 20px;
+    padding-top: 10px;
+ }
+ #prodDesc+#prodAmt{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(51,122,183);
+ }
+ #prodBtn{
+    background-color: #04AA6D;
+    color: #eff;
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+    border: white;
+    border-radius: 15px;
+ }
+ #prodBtn:hover{
+    background-color: #45a049;
+ }
+ .categorised{
+    width: 45%;
+    margin: auto;
+    margin-top: 15px;
+ }
+ #viewCart{
+   display: flex;
+   position: absolute;
+   left: 1200px;
+   top: 70px;
+ }
+ #viewCart>p{
+   padding-left: 8px;
+   color: #45a049;
+   cursor: pointer;
+ }
+ /* Main product page CSS */
+

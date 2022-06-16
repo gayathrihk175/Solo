@@ -1,0 +1,150 @@
+/* CSS for cart page starts here */
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(10,1fr);
+    gap: 15px;
+    width: 80%;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 50px;
+}
+section>div{
+    border: 1px solid silver;
+}
+section>div>img{
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+}
+section>div>img+p{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+section>div>img+p+p{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(51,122,183);
+}
+section>div>button{
+    background-color: #04AA6D;
+    color: #eff;
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+    border: white;
+    border-radius: 15px;
+}
+section>div>button:hover{
+    background-color: #45a049;
+}
+.redirection{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    cursor: pointer;
+}
+.redirection>p{
+    color: #04AA6D;
+}
+.priceDisplayAndPayment{
+    border: 1px solid silver;
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+    width: 14%;
+    padding: 10px;
+}
+.priceDisplayAndPayment>#priceDisplay{
+    padding: 5px;
+    text-align: center;
+}
+.priceDisplayAndPayment>#payment{
+    padding: 5px 10px;
+    background-color: #04AA6D;
+    color: #eff;
+    border: #eff;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+/* CSS for cart page starts here */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for navbar starts here */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(40,116,240);
+    border-radius: 7px;
+}
+nav>div{
+    color: azure;
+    font-size: 25px;
+    margin-left: 19px;
+}
+nav>div+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+nav>div+div>a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+nav>div>a{
+  text-decoration: none;
+  color: azure;
+}
+#logo{
+    color: yellow;
+}
+/* CSS for navbar ends here */
+
+/* Searchbar CSS starts here*/
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .searchTerm {
+    width: 100%;
+    border: 3px solid transparent;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  .searchButton {
+    width: 50px;
+    height: 36px;
+    border: 1px solid silver;
+    text-align: center;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .searchBar{
+    width: 30%;
+  }
+  
+  /* Searchbar CSS starts here*/

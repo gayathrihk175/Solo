@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for navbar starts here */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(40,116,240);
+    border-radius: 7px;
+}
+nav>div{
+    color: azure;
+    font-size: 25px;
+    margin-left: 19px;
+}
+nav>div+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+nav>div+div>a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+nav>div>a{
+  text-decoration: none;
+  color: azure;
+}
+#logo{
+    color: yellow;
+}
+/* CSS for navbar ends here */
+
+/* Searchbar CSS starts here*/
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: 3px solid transparent;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.searchTerm:focus{
+    color: #00B4CC;
+}
+.searchButton {
+    width: 50px;
+    height: 36px;
+    border: 1px solid silver;
+    text-align: center;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+.searchBar{
+    width: 30%;
+}
+
+/* Searchbar CSS starts here*/
+
+/* Footer CSS starts here */
+
+#box{
+    border: 1px solid transparent;
+    width: 40%;
+    margin-top: 30px;
+    position: relative;
+    left: 200px;
+}
+#box>ul{
+    font-family: serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+#box>li>a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #23527c;
+}
+li{
+    position: relative;
+    left: 25px;
+}
+
+/* Footer CSS endss here */
+
+/* CSS for products page starts here */
+@media all and (min-width: 451px) and (max-width: 750px){
+
+}
+@media all and (min-width: 100px) and (max-width: 450px){
+    
+}
+#one{
+    display: flex;
+    justify-content: space-between;
+}
+#two{
+    display: flex;
+    justify-content: space-between;
+}
+#three{
+    display: flex;
+    justify-content: space-between;
+}
+#four{
+    display: flex;
+    justify-content: space-between;
+}
+#five{
+    display: flex;
+    justify-content: space-between;
+}
+#six{
+    display: flex;
+    justify-content: space-between;
+}
+#seven{
+    display: flex;
+    justify-content: space-between;
+}
+#eight{
+    display: flex;
+    justify-content: space-between;
+}
+.bookImage{
+    width: 30%;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+.bookImage>img{
+    border: 1px solid silver;
+    padding: 10px;
+}
+#productContainer{
+    border: 1px solid transparent;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#bookPrice{
+    display: flex;
+    justify-content: space-around;
+}
+.bookImage>.green{
+    border: 1px solid transparent;
+    background-color: green;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.green>a{
+    color: white;
+    text-decoration: none;
+}
+.mainBookTable>div:nth-child(even){
+    background-color: #f2f2f2;
+}
+.mainBookTable>div{
+    padding: 10px;
+}
+.green+p{
+    font-size: 25px;
+    padding: 10px;
+}
+.bookImage>p{
+    padding: 10px;
+}
+#bookPrice>button{
+    padding: 10px 20px;
+    background-color: rgb(240,173,78);
+    border-radius: 15px;
+    border: white;
+    cursor: pointer;
+    color: #f2f2f2;
+}
+.bookInfo{
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+.flex-box{
+    display: flex;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 20px;
+    text-align: justify;
+}
+.details{
+    border: 1px solid silver;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    background-color:  #f2f2f2;
+}
+.details>p:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    width: 90%;
+}
+.details>p:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 18px;
+}
+/* CSS for products page ends here */

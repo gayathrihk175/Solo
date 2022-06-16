@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+        <!-- Navbar goes here -->
+        <nav>
+            <div><a id="logo" href="index.html">IDEAKART</a></div>
+                <!-- search bar -->
+                    <div class="searchBar">
+                        <div class="search">
+                        <input type="text" class="searchTerm" placeholder="Search">
+                        <button type="submit" class="searchButton">Search</button>
+                        </div>
+                    </div>
+                <!-- search bar -->
+            <div>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="signin.html">Sign In</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </nav>
+        <!-- Navbar ends here -->
+    <!-- Signup starts here -->
+    <div class="signupContainer">
+        
+        <form action="" id="signupForm">
+          <p>Sign Up</p>
+          <label for="customerName">Name *</label>
+          <input type="text" id="customerName" name="custname" required>
+      
+          <label for="customerNumber">Mobile Number *</label>
+          <input type="text" id="customerNumber" name="custnum" required>
+      
+          <label for="customerEmail">Email *</label>
+          <input type="text" id="customerEmail" name="emailID" required>
+      
+          <label for="customerPassword">Password <i>(6 characters minimum)</i> *</label>
+          <input type="text" id="customerPassword" name="password" required>
+      
+          <label for="customerPasswordConf">Password Confirmation *</label>
+          <input type="text" id="customerPasswordConf" name="passwordconf" required>
+      
+          <input type="submit" value="Sign Up" id="signupBtn">
+          <a href="signin.html" id="loginLink">Log in</a>
+        </form>
+    </div>
+    <!-- Signup ends here -->
+        <!-- Footer starts here -->
+        <div id="box">
+            <ul>Get To Know Us</ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Refund Policy</a></li>
+            <li><a href="">Earn Money Online</a></li>
+            <li><a href="">Quick Buyer</a></li>
+        </div>
+        <!-- Footer ends here -->
+
+    <script src="signup.js"></script>
+</body>
+</html>
