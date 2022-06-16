@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for navbar starts here */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(40,116,240);
+    border-radius: 7px;
+}
+nav>div{
+    color: azure;
+    font-size: 25px;
+    margin-left: 19px;
+}
+nav>div+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+nav>div+div>a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+nav>div>a{
+  text-decoration: none;
+  color: azure;
+}
+#logo{
+    color: yellow;
+}
+
+/* CSS for navbar starts here */
+
+/* Searchbar CSS starts here*/
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: 3px solid transparent;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.searchTerm:focus{
+    color: #00B4CC;
+}
+.searchButton {
+    width: 50px;
+    height: 36px;
+    border: 1px solid silver;
+    text-align: center;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+.searchBar{
+    width: 30%;
+}
+
+/* Searchbar CSS starts here*/
+
+/* Footer CSS goes here */
+
+#box{
+    border: 1px solid transparent;
+    width: 40%;
+    margin-top: 30px;
+    position: relative;
+    left: 200px;
+}
+#box>ul{
+    font-family: serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+#box>li>a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #23527c;
+}
+li{
+    position: relative;
+    left: 25px;
+}
+
+/* Footer CSS goes here */
+
+/* Make money CSS starts here */
+.moneyContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#head{
+    font-family: serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 500;
+}
+#mainMoneyBox{
+    display: flex;
+    width: 99%;
+    margin: auto;
+    margin-top: 30px;
+}
+#mainMoneyBox>div{
+    border: 1px solid silver;
+    margin: auto;
+    height: 300px;
+    width: 30%;
+    padding: 10px;
+}
+#mainMoneyBox>div>p{
+    text-align: center;
+    padding: 8px;
+}
+#mainMoneyBox>div>p+p{
+    font-family: serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    padding: 5px;
+}
+#mainMoneyBox>div li{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 5px;
+}
+iframe{
+    margin:auto;
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+}
+#getStarted{
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #23527c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+/* Make money CSS ends here */

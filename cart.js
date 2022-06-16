@@ -7,6 +7,11 @@ forRedirection.addEventListener("click",function(){
 var proceedForPay = document.querySelector("#payment");
 proceedForPay.addEventListener("click",function(){
     window.location.href="payment.html";
+    // if(displayPrice.innerText == 0){
+    //     productButton.setAttribute("disabled","disabled");
+    // }else{
+    //     window.location.href = "payment.html";
+    // }
 })
 
 var displayPrice = document.querySelector("#priceDisplay");

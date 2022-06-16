@@ -85,10 +85,8 @@ nav>div>a{
       display: grid;
       grid-template-columns: repeat(2,1fr);
       grid-template-rows: repeat(20,1fr);
-      gap: 5px;
       width: 100%;
       border: 1px solid transparent;
-      /* margin: auto; */
       margin-top: 30px;
    }
 }
@@ -97,10 +95,8 @@ nav>div>a{
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(40,1fr);
-      /* gap: 15px; */
       width: 100%;
       border: 1px solid transparent;
-      /* margin: auto; */
       margin-top: 30px;
    }
 }
@@ -163,3 +159,34 @@ nav>div>a{
  }
  /* Main product page CSS */
 
+/* CSS for pagination */
+#containerPagination{
+   padding-top: 40px;
+   padding-bottom: 50px;
+ }
+ #pagination{
+   display: flex;
+   justify-content: center;
+ }
+ .blocks{
+   width: 40px;
+   line-height: 40px;
+   text-align: center;
+   border: 1px solid silver;
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+ }
+ .blocks:not(:first-child){
+   margin-left: 5px;
+ }
+ .blocks:hover{
+   background-color: silver;
+ }
+ #pagination a.active{
+   background-color: #04AA6D;
+ }
+ #pagination a.active:hover{
+   background-color: #45a049;
+ }
+/* CSS for pagination */
