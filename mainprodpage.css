@@ -152,10 +152,15 @@ nav>div>a{
    left: 1200px;
    top: 70px;
  }
+ #viewCart>i{
+  padding-top: 8px;
+ }
  #viewCart>p{
    padding-left: 8px;
    color: #45a049;
    cursor: pointer;
+   font-weight: 700;
+   font-size: 25px;
  }
  /* Main product page CSS */
 

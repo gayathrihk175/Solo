@@ -344,7 +344,7 @@ var booksDataDisplayed = [
 
   var cartSymbol = document.querySelector("#viewCart").addEventListener("click",function(){
     window.location.href = "cart.html";
-  })
+  });
 
 function displayProducts(booksDataDisplayed) {
     booksDataDisplayed.forEach(function(elem){
@@ -373,7 +373,7 @@ function displayProducts(booksDataDisplayed) {
 
         productDiv.append(productVisual,productDesc,productAmount,productButton);
         document.querySelector(".productsDisplay").append(productDiv);
-    })
+    });
 }
 
 displayProducts(booksDataDisplayed);
